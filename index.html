@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Margaret Love</title>
+    
+    
+    
+    
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body>
+<b>THE BASICS OF THE WEB</b>
+<br><br>
+www. –pronounced  <em>dub-l-u, dub-l-u, dub-l-u, dot</em>
+<a href="http://www.urbandictionary.com/define.php?term=www">Urban Dictionary</a>defines <em>"World Wide Web". As the most ridiculous abbreviation around, since to pronounce it takes nine syllables, whereas "World Wide Web" is only three. </em>
+<br>
+<br>
+<br>
+<b>Quick Read/<em>Background Information before Jumping into Hands on Coding</em></b>
+<br><br><br>
+<em>The World-Wide-Web is a vast collection of documents that can be accessed from anywhere, at any time, by anyone in possession of the correct address (url). These documents, the majority of which are coded in HTML, are connected to each other by hyperlinks. </em>
+<br><br>Hyper Text Markup Language (HTML) is a collection of code that defines what the users of web documents will view on web pages. Steve Huffman explains that HTML is the glue that holds the web together and hyperlinks are the means of transportation between them.
+<br><br><br>
+<b>HTML defines what the viewer:</b>
+<br><ul><li>is able to see</li><li> what the documents (pages) will look like</li><li>and references (links) to other documents</li></ul>
+<br>
+<br>
+<b>Initial HTML vocabulary includes:</b>
+<ul><li><b>Tag</b>—a letter or group of letters that are surrounded by these two brackets &lt &gt (this is an opening tag), or preceded by a forward slash in these two brackets &lt/ &gt (this is a closing tag)</li>
+<li><b>Element</b>—the content that goes between the opening and closing tags above, this will be displayed as the tags dictate</li>
+<li><b>Attribute</b>—describes a property of the html element in &lta href=”http://www.urbandictionary.com” &gt the information following  "href=" will provide the computer processor with the information it needs in this case to link to Urban Dictionary
+</li></ul></p>
+<br><br>
+<p><b>Warning</b>
+<br><br>
+<em>Some claim that computers are stupid. Computers can’t really be stupid since they are not sentient; they operate in a binary system of electrical circuits and can only make a distinction between open or closed.   A coder may also think of open or closed as yes or no. 
+<br><br>The coder uses HTML to instruct the computer processor to create a change such as bold or italic to specific elements in the text, they must also tell the computer when to stop taking this action.
+<br><br>The computer’s circuits do not have the ability to ask themselves if the programmer really intended to use bold for the entire last half of the document, the programmer must anticipate this issue. 
+</em></p>
+<p><br><br><p>
+<b>HTML is composed of tags which fall into three categories:</b>
+<br><br>
+<ul><li><b>Mark Up</b>—which make changes such as bold or italics</li>
+<li><b>Anchor</b>—code that provides directions for a web address thereby creating a link </li>
+<li><b>Image</b>—inserts images into web pages along with its attributes. The attributes include where the item will be found (url) along with a description or text explanation of what the item is if the link can’t be viewed. This is important for two reasons, the first is the user may be able to find the link on their own and more importantly it addresses the requirements of Universal Design, which ask the programmer to anticipate the needs of visually impaired web cruisers </li></ul>
+</p><br><br> 
+<p><b>Creating White Space</b>
+<br><br>
+White Space is an essential element for making webpages easy on the viewer.  When content is displayed with gaps for the eye to rest on the viewer can interact more efficiently in the non-print based medium of the World-Wide-Web.  
+<br><br>
+Web pages are more likely to be read, enjoyed and revisited if the viewer is not <em>slammed</em> by a wall of words. 
+Web cruisers are not going to give a page any more attention than they have too and white space helps them scan for content that is interesting to them.
+<br><br>
+</p>
+<p><br><p><b>Let’s Do a Little Coding</b>
+<br><br>
+<b>First: MarkUp </b>  	Bold and Italics
+<br><br>
+<em>For bold the HTML code looks like:  </em>&lt;b&gt;I am bold&lt;/b&gt;</em>
+<br>   The viewer sees		<b>I am bold</b>
+<br><br>
+<em>For Italics (emphasis) the code looks like:</em>	&lt;em&gtI am italic&lt/em&gt<br>The viewer sees 		<em>I am italic</em>
+<br><br>
+Recall that the open commands are &lt;b&gt; and &lt;em&gt; and the required closing command needs a forward slash, &lt;/b&gt; and &lt;/em&gt;. 
+<em>The processor will not stop doing any instruction you start until you tell it to stop doing so.</em></p><br><br>
+</p>
+<p><b>Second: Anchor</b>   Providing the processor with a web address/url
+<br><br><em>The code looks like: &lt;b> a href=www.linkyouwant.com&gt;clickable name&lt;/a&gt;
+</em><br>The viewer sees a clickable link <br>
+</p><br>
+<p><b>Third: Inserting an Image</b><br><br>
+<em>The code looks like:
+  						
+&lt;img scr=”url” alt=”text description”&gt;</bt><br></em>			The viewer sees the picture (jpeg that you want seen)
+<br><br>Notice that there is no &lt;/img&gt; this is because inserting pictures falls into the category of void tags, ones that simply do one thing, (insert an image or a white space) and then return to original coding structure.
+</p><br>
+<p><b>Fourth: Two Methods for Creating White Space</b><br><br>
+&lt;br&gt; and &lt;p&gt;, line break and paragraph. 
+<br> <ul><li>&lt;br&gt; is a void tag (does not need a closing tag) along with being an inline tag</li><li>&lt;p&gt;block&lt;/p&gt; is a block tag which creates a container for larger amounts of content. It will stretch to contain anything placed within the opening and closing commands while providing a border of whitespace around the content</li></ul>
+</p><br>
+<p><b>Fifth: Container Elements</b><br><br>
+&lt;span&gt; and &lt;div&gt;, inline and block<br>
+<ul><li>&lt;span class=”    “&gt; text &lt;/span&gt; is an  inline container</li><li>&lt;div class=”   “ &gt; text &lt;/div&gt; is a block container</li></ul>
+</p><br>
+<p><b>Concluding Notes for Coders</b> While Rounding Up Information<ul><li>Understand the when the programmer starts something they must also stop it</li><li>Void commands do not require a stop command</li><li>Commands may be inline or block, spaces or containers</li><li>Without HTML the viewer will encounter a wall of words and jump over your site</li></ul></p>
+<br>
+<p>There are some <em>elements</em> in HTML code that do not have to be closed after being opened, these are void elements. Two that are learned early on are break &lt;br&gt; and image &lt;img scr=”url” alt=”text”&gt;. With &lt;br&gt; a blank space is added and the action is done. This is also true for &lt;img…..&gt; which inserts a picture and once done there is no further action to take.
+<br><br>
+Fortunately the world-wide-web leads us to a wealth of information. We no longer have to keep tedious notes or memorizes vast volumes of coding information all we need to do is ask (I like to search using Google). There are many resources for finding code and even sites where an individual can use an editor to create what they want to see and then switch to html view where they can copy the code they need and then paste it into the html they are working on.
+</p>
+</body>
+    
+    
+    
+    
+    
+  </body>
+</html>
